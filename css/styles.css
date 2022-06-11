@@ -1,0 +1,247 @@
+:root {
+  --text-color: #757575;
+  --titel-color: #212121;
+  --activ-color: #2196f3;
+  --header-bcg-color: #ffffff;
+  --hiro-bcg-color: #2f303a;
+  --midl-sec-bcg-color: #e5e5e5;
+  --team-bcg-color: #f5f4fa;
+  --adress-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  color: var(--titel-color);
+  background-color: var(--midl-sec-bcg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* header */
+.hat {
+  background-color: var(--header-bcg-color);
+}
+.half {
+  color: var(--activ-color);
+}
+
+.hat-logo,
+.cellar-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.hat-link,
+.hat-logo {
+  color: var(--titel-color);
+  text-decoration: none;
+}
+.hat-link:hover,
+.hat-link:focus,
+.hat-logo:hover,
+.hat-logo:focus,
+.cellar-logo:hover,
+.cellar-logo:focus {
+  color: var(--activ-color);
+}
+.hat-contact {
+  color: var(--text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.hat-contact:hover,
+.hat-contact:focus {
+  color: var(--activ-color);
+}
+.hat-list {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* hiro */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hiro,
+.cellar {
+  background-color: var(--hiro-bcg-color);
+}
+.hiro-title {
+  color: var(--header-bcg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hiro-button {
+  color: var(--header-bcg-color);
+  background-color: var(--activ-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  margin: 0 auto;
+  display: block;
+}
+.hiro-button:hover,
+.hiro-button:focus {
+  color: var(--activ-color);
+  background-color: var(--header-bcg-color);
+}
+
+/* advantage */
+
+.advantage {
+  background-color: var(--midl-sec-bcg-color);
+}
+.title {
+  color: var(--titel-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantage-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.advantage-list {
+  list-style-type: none;
+}
+
+/* examples */
+.examples {
+  background-color: var(--midl-sec-bcg-color);
+}
+.examples-list {
+  list-style-type: none;
+}
+.examples-title,
+.ourteam-title {
+  color: var(--titel-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* ourteam */
+.ourteam {
+  background-color: var(--team-bcg-color);
+}
+
+.ourteam-list {
+  list-style-type: none;
+}
+.ourteam-list .title {
+  color: var(--titel-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-transform: none;
+}
+.ourteam-list .text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* footer */
+
+.cellar-logo {
+  color: var(--header-bcg-color);
+  text-decoration: none;
+}
+
+.user {
+  color: var(--header-bcg-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.user-mail,
+.user-phone {
+  color: var(--adress-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+.user-mail:hover,
+.user-mail:focus,
+.user-phone:hover,
+.user-phone:focus {
+  color: var(--activ-color);
+}
+
+/* Portfolio */
+
+.general-btn {
+  color: var(--titel-color);
+  background-color: var(--team-bcg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.general-btn:hover,
+.general-btn:focus {
+  color: var(--header-bcg-color);
+  background-color: var(--activ-color);
+}
+
+.general-list,
+.general-items {
+  list-style-type: none;
+}
+
+.general-link {
+  text-decoration: none;
+}
+
+.general-title {
+  color: var(--titel-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.general-text {
+  color: var(--text-color);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.general-title:hover,
+.general-text:hover {
+  color: var(--activ-color);
+}
+
+/* general itms*/
