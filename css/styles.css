@@ -10,10 +10,10 @@
 }
 .container {
   width: 1170px;
-  padding: 0 215px;
+  padding: 0 15px;
   margin: 0 auto;
 
-  background-color: tomato;
+  outline: 2px solid tomato;
 }
 
 body {
@@ -25,8 +25,8 @@ body {
 /* header */
 .hat {
   background-color: var(--header-bcg-color);
-  width: 1600px;
 }
+
 .half {
   color: var(--activ-color);
 }
@@ -37,7 +37,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  display: inline-block;
 }
 
 .hat-link,
@@ -65,14 +64,13 @@ body {
 }
 .hat-list {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  padding: 0 0;
-  margin: 0 0;
 }
 
 /* hiro */
@@ -95,19 +93,22 @@ body {
 .cellar {
   background-color: var(--hiro-bcg-color);
 }
+
+.hiro {
+  text-align: center;
+}
+
 .hiro-title {
   color: var(--header-bcg-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  padding-top: 200px;
   padding-bottom: 0px;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .hiro-button {
   color: var(--header-bcg-color);
@@ -116,18 +117,18 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-
+  text-align: center;
   display: flex;
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  display: inline-block;
 
-  margin: 0 auto;
-  display: block;
   min-width: 200px;
   padding: 10px 32px;
   border-radius: 4px;
 }
+
 .hiro-button:hover,
 .hiro-button:focus {
   color: var(--activ-color);
@@ -138,6 +139,8 @@ body {
 
 .advantage {
   background-color: var(--midl-sec-bcg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .title {
   color: var(--titel-color);
@@ -146,7 +149,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 .advantage-text {
@@ -154,22 +157,24 @@ body {
   font-size: 14px;
   line-height: 1.7;
 
-  margin: 0px 0px;
+  margin: 0;
 }
 .advantage-list {
   list-style-type: none;
-  padding: 0px 0px;
-  margin: 0px 0px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* examples */
 .examples {
   background-color: var(--midl-sec-bcg-color);
+  margin-bottom: 94px;
 }
 .examples-list {
   list-style-type: none;
   margin: 0px 0px;
-  padding: 0px 0px;
+  padding-left: 0px;
 }
 .examples-title,
 .ourteam-title {
@@ -179,19 +184,23 @@ body {
   line-height: 1.17;
   text-align: center;
 
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
 /* ourteam */
+
 .ourteam {
   background-color: var(--team-bcg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .ourteam-list {
   list-style-type: none;
-  margin: 0px 0px;
-  padding: 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .ourteam-list .title {
   color: var(--titel-color);
@@ -200,20 +209,20 @@ body {
   line-height: 1.9;
 
   text-transform: none;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-  margin-right: 59px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .ourteam-list .text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.9;
 
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* footer */
