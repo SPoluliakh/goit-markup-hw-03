@@ -38,6 +38,13 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  width: 145px;
+}
+
+.hat-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 .hat-link,
@@ -64,10 +71,20 @@ body {
   color: var(--activ-color);
 }
 
+.hat-list .hat-link,
+.hat-list .hat-contact {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .common {
   list-style-type: none;
   padding-left: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
 }
 
 .hat-list {
@@ -75,6 +92,18 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.hat-list .item:not(:last-child) {
+  margin-right: 50px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin-left: auto;
 }
 
 /* hiro */
