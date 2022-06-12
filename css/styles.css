@@ -7,6 +7,7 @@
   --midl-sec-bcg-color: #e5e5e5;
   --team-bcg-color: #f5f4fa;
   --adress-color: rgba(255, 255, 255, 0.6);
+  --header-border-color: #ececec;
 }
 .container {
   width: 1200px;
@@ -24,6 +25,7 @@ body {
 /* header */
 .hat {
   background-color: var(--header-bcg-color);
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 .half {
