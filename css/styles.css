@@ -13,8 +13,6 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  outline: 2px solid tomato;
 }
 
 body {
@@ -42,6 +40,7 @@ body {
 }
 
 .hat-logo {
+  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
@@ -193,6 +192,10 @@ body {
   margin: 0;
 }
 
+.advantage-list > .subtitle:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* examples */
 .examples {
   background-color: var(--midl-sec-bcg-color);
@@ -209,6 +212,10 @@ body {
 
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.examples-list > .subtitle:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ourteam */
@@ -240,6 +247,15 @@ body {
   padding-bottom: 30px;
 }
 
+.sub-two {
+  margin-left: 38px;
+  margin-right: 22px;
+}
+
+.sub-thri {
+  margin-right: 30px;
+}
+
 /* footer */
 
 .cellar-logo {
@@ -260,12 +276,29 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+
+  display: block;
 }
 .user-mail:hover,
 .user-mail:focus,
 .user-phone:hover,
 .user-phone:focus {
   color: var(--activ-color);
+}
+
+.cellar-logo {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.user-mail {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.user-phone {
+  padding-bottom: 60px;
 }
 
 /* Portfolio */
