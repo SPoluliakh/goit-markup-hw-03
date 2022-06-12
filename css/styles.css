@@ -62,11 +62,14 @@ body {
 .hat-contact:focus {
   color: var(--activ-color);
 }
-.hat-list {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
 
+.common {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.hat-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -159,23 +162,13 @@ body {
 
   margin: 0;
 }
-.advantage-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 /* examples */
 .examples {
   background-color: var(--midl-sec-bcg-color);
   margin-bottom: 94px;
 }
-.examples-list {
-  list-style-type: none;
-  margin: 0px 0px;
-  padding-left: 0px;
-}
+
 .examples-title,
 .ourteam-title {
   color: var(--titel-color);
@@ -196,12 +189,6 @@ body {
   padding-bottom: 94px;
 }
 
-.ourteam-list {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
 .ourteam-list .title {
   color: var(--titel-color);
   font-weight: 500;
