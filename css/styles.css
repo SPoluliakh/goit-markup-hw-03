@@ -23,6 +23,11 @@ body {
   letter-spacing: 0.03em;
 }
 /* header */
+
+.visited:visited {
+  color: var(--activ-color);
+}
+
 .hat {
   background-color: var(--header-bcg-color);
   border-bottom: 1px solid var(--header-border-color);
