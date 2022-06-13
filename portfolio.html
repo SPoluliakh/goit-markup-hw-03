@@ -9,34 +9,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
     <header class="hat">
-      <nav>
-        <a class="hat-logo" href="./index.html"><span class="half">Web</span>Studio</a>
-        <ul class="hat-list">
-          <li>
-            <a class="hat-link" href="./index.html">Студия</a>
+      <div class="container flex">
+        <nav class="flex">
+          <a class="hat-logo flex" href="./index.html"><span class="half">Web</span>Studio</a>
+          <ul class="hat-list common">
+            <li class="item">
+              <a class="hat-link" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="hat-link visited" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item">
+              <a class="hat-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="hat-list common info">
+          <li class="item">
+            <a class="hat-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a class="hat-link visited" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="hat-link" href="">Контакты</a>
+          <li class="item">
+            <a class="hat-contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="hat-list">
-        <li>
-          <a class="hat-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="hat-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
@@ -133,12 +142,14 @@
 
     <!--Футер-->
     <footer class="cellar">
-      <a class="logo cellar-logo" href="./index.html"><span class="half">Web</span>Studio</a>
-      <address class="user">
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a class="user-mail" href="mailto:info@example.com">info@example.com</a> <br />
-        <a class="user-phone" href="tel:+380991111111">+38 099 111 11 11</a>
-      </address>
+      <div class="container">
+        <a class="cellar-logo" href="./index.html"><span class="half">Web</span>Studio</a>
+        <address class="user">
+          г. Киев, пр-т Леси Украинки, 26 <br />
+          <a class="user-mail" href="mailto:info@example.com">info@example.com</a>
+          <a class="user-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
