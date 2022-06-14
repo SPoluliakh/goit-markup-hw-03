@@ -233,13 +233,13 @@ img {
 }
 
 .examples-list {
-  margin-left: -30px;
+  margin-right: -30px;
 }
 
 .examples-list > .subtitle {
   flex-basis: calc(100% / 3 - 30px);
 
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .examples-list > .subtitle:nth-child(3n) {
