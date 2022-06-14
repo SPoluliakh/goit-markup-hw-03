@@ -299,6 +299,11 @@ img {
 
 /* footer */
 
+.cellar {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .cellar-logo {
   color: var(--header-bcg-color);
   text-decoration: none;
@@ -329,17 +334,12 @@ img {
 
 .cellar-logo {
   display: block;
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
 .user-mail {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.user-phone {
-  padding-bottom: 60px;
 }
 
 /* PORTFOLIO */
