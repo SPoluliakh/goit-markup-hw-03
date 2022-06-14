@@ -410,7 +410,7 @@ img {
   color: var(--activ-color);
 }
 
-/* container */
+/*portfolio/ container */
 
 .general {
   padding-top: 94px;
@@ -424,7 +424,7 @@ img {
   padding-bottom: 20px;
 }
 
-/* flex */
+/*portfolio/ flex */
 .general-list {
   display: flex;
   justify-content: center;
