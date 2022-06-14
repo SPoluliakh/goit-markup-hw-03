@@ -307,6 +307,9 @@ img {
 .cellar-logo {
   color: var(--header-bcg-color);
   text-decoration: none;
+
+  display: block;
+  margin-bottom: 20px;
 }
 
 .user {
@@ -330,11 +333,6 @@ img {
 .user-phone:hover,
 .user-phone:focus {
   color: var(--activ-color);
-}
-
-.cellar-logo {
-  display: block;
-  padding-bottom: 20px;
 }
 
 .user-mail {
