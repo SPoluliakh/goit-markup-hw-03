@@ -30,7 +30,7 @@ img {
 
 /* header */
 
-.visited:visited {
+.hat-list .hat-link.current {
   color: var(--activ-color);
 }
 
