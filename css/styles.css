@@ -4,7 +4,6 @@
   --activ-color: #2196f3;
   --header-bcg-color: #ffffff;
   --hiro-bcg-color: #2f303a;
-  --midl-sec-bcg-color: #e5e5e5;
   --team-bcg-color: #f5f4fa;
   --adress-color: rgba(255, 255, 255, 0.6);
   --header-border-color: #ececec;
@@ -19,7 +18,7 @@
 
 body {
   color: var(--titel-color);
-  background-color: var(--midl-sec-bcg-color);
+  background-color: var(--header-bcg-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -142,6 +141,8 @@ img {
 
 .hiro {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hiro-title {
@@ -151,10 +152,14 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  max-width: 696px;
 
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 30px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 .hiro-button {
   color: var(--header-bcg-color);
@@ -184,7 +189,7 @@ img {
 /* advantage */
 
 .advantage {
-  background-color: var(--midl-sec-bcg-color);
+  background-color: var(--header-bcg-color);
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -216,7 +221,7 @@ img {
 
 /* examples */
 .examples {
-  background-color: var(--midl-sec-bcg-color);
+  background-color: var(--header-bcg-color);
   padding-bottom: 94px;
 }
 
@@ -261,12 +266,10 @@ img {
   line-height: 1.9;
 
   text-transform: none;
-  margin-top: 30px;
+
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
-
-  text-align: center;
 }
 .ourteam-list .text {
   color: var(--text-color);
@@ -274,6 +277,10 @@ img {
   line-height: 1.9;
 
   margin: 0;
+}
+
+.carts {
+  padding-top: 30px;
   padding-bottom: 30px;
 
   text-align: center;
@@ -336,8 +343,8 @@ img {
 }
 
 .user-mail {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 /* PORTFOLIO */
@@ -380,6 +387,10 @@ img {
   text-decoration: none;
 }
 
+.general-link .prewieu {
+  padding: 20px 24px;
+}
+
 .general-title {
   color: var(--titel-color);
   font-weight: 700;
@@ -387,9 +398,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
   margin-bottom: 0;
-  padding-left: 24px;
+  margin-top: 0;
 }
 
 .general-text {
@@ -400,7 +410,6 @@ img {
 
   margin-top: 4px;
   margin-bottom: 0;
-  padding-left: 24px;
 }
 
 .general-title:hover,
@@ -418,8 +427,6 @@ img {
 .general-items li {
   background: var(--header-bcg-color);
   border: 1px solid var(--portfolio-border-color);
-
-  padding-bottom: 20px;
 }
 
 /*portfolio/ flex */
